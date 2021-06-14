@@ -1,0 +1,12 @@
+# Compiled class files
+*.class
+
+# IntelliJ IDE
+.idea/**/workspace.xml
+
+
+#Important things to learn in .gitignore file
+# * - will match anything
+#/** math anything inside the directory
+#**/ match anything in all directories
+#.idea/**/workspace.xml - this will ignore every workspace.xml files inside any of the directories inside .idea directory

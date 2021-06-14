@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class OneDArray {
     public static void main(String[] args){
-        final int SIZE = 20; //same as #define in CPP
+        final int SIZE = 5; //same as #define in CPP
         int[] num = new int[SIZE];
         int option;
         do{
@@ -33,14 +33,24 @@ public class OneDArray {
         int i=0;
         while (array[i]!=0){
             i++;
+            if(i==array.length){
+                System.out.println("There is no more space in the array");
+                return;
+            }
         }
         Scanner sc = new Scanner(System.in);
         System.out.print("Please enter the integers(seperate using a space): ");
         String str = sc.nextLine();
         String arr[] = str.split(" ");
-        for(int x=0;x<arr.length;x++){
+        for(int x=0;x<arr.length;x++) {
             array[i] = Integer.parseInt(arr[x]);
             i++;
+            if (i >= array.length) {
+                if(i>array.length){
+                    System.out.println("There is no enough space to add all the elements into the array.");
+                }
+                break;
+            }
         }
         System.out.println("\n");
     }
@@ -51,6 +61,9 @@ public class OneDArray {
         while (array[i]!=0){
             System.out.print(array[i]+" ");
             i++;
+            if(i==array.length){
+                break;
+            }
         }
         if(i==0){
             System.out.println("Array is Empty\n");
