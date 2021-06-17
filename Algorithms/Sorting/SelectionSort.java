@@ -1,5 +1,3 @@
-package com.interview.sort;
-
 /*
  * Introduction: The array will be gradually separated into two parts as unsorted part and sorted part.
  *               Select the minimum value from the unsorted part and put it at the end of the sorted part.

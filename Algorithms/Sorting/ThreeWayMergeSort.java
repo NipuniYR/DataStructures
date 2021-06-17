@@ -1,5 +1,3 @@
-package com.interview.sort;
-
 /*
 *Introduction: Same as the merge sort. The only difference is instead of recursively splitting the problem into 2 sub problems,
 *              in 3 way merge sort, we recursively split the problem into three sub problems.

@@ -1,5 +1,3 @@
-package com.interview.sort;
-
 /*
 * Introduction: The array will be gradually separated into two parts as unsorted part and sorted part.
 *               Get the values one by one from the unsorted part and place them in the correct positions of the sorted part.

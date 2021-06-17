@@ -1,5 +1,3 @@
-package com.interview.sort;
-
 /*
  * Introduction: Swaps the adjacent elements to sort those elements,
  *               so that at the end, all the elements bubbles up in their sorted position.
