@@ -12,7 +12,7 @@ public class Stack {
 
     //push
     public void push(int val){
-        if(top == stackSize){
+        if(top == stackSize-1){
             System.out.println("Stack overflow");
         }
         else{
